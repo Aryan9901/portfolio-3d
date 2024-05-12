@@ -1,4 +1,4 @@
-import { guessthenumber, meta, piggame, shopify, starbucks, tesla } from "../assets/images";
+import { gettala, guessthenumber, meta, piggame, shopify, starbucks, tesla } from "../assets/images";
 import {
 	car,
 	contact,
@@ -189,7 +189,7 @@ export const projects = [
 			"Designed a responsive guessing game using vanilla JavaScript. Users guess 1-20, receive instant feedback, track attempts, and celebrate correct guesses. Built with HTML, CSS, and JavaScript for seamless gameplay.",
 		link: "https://aryan9901.github.io/guess-the-number/",
 		github: "https://github.com/Aryan9901/guess-the-number",
-		tags: "Vanilla JS",
+		tags: ["Vanilla JS"],
 	},
 	{
 		iconUrl: threads,
@@ -200,17 +200,18 @@ export const projects = [
 			"Roll the dice, rack up points, but beware the dreaded 1! Strategize to be the first to reach 100 points and claim Pig Dice victory! Let the game of skill and luck begin!",
 		link: "https://aryan9901.github.io/pig-game/",
 		github: "https://github.com/Aryan9901/pig-game",
-		tags: "Vanilla JS",
+		tags: ["Vanilla JS"],
 	},
 	{
 		iconUrl: car,
 		theme: "btn-back-blue",
-		imgUrl: "https://t.ly/NCQOd",
-		name: "Car Finding App",
-		description: "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-		link: "https://github.com/adrianhajdin/project_next13_car_showcase",
-		github: "https://github.com/adrianhajdin/pricewise",
-		tags: "Mini Projects",
+		imgUrl: gettala,
+		name: "GET TALA WEBSITE",
+		description:
+			"'Gettala' is a stylish website showcasing fruit-based snacks with GSAP animations, echoing taglines such as 'Bringing fruit snacks back to their roots,' emphasizing natural flavors and quality ingredients.",
+		link: "https://aryan9901.github.io/gettala-website/",
+		github: "https://github.com/Aryan9901/gettala-website",
+		tags: ["HTML", "CSS", "JAVASCRIPT", "GSAP"],
 	},
 	{
 		iconUrl: snapgram,
@@ -221,7 +222,7 @@ export const projects = [
 			"Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
 		link: "https://github.com/adrianhajdin/social_media_app",
 		github: "https://github.com/adrianhajdin/pricewise",
-		tags: "MERN",
+		tags: ["MERN"],
 	},
 	{
 		iconUrl: estate,
@@ -231,7 +232,7 @@ export const projects = [
 		description: "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
 		link: "https://github.com/adrianhajdin/projects_realestate",
 		github: "https://github.com/adrianhajdin/pricewise",
-		tags: "React JS",
+		tags: ["React JS"],
 	},
 	{
 		iconUrl: summiz,
@@ -241,6 +242,6 @@ export const projects = [
 		description: "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
 		link: "https://github.com/adrianhajdin/project_ai_summarizer",
 		github: "https://github.com/adrianhajdin/pricewise",
-		tags: "React JS",
+		tags: ["React JS"],
 	},
 ];

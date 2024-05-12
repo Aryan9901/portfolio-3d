@@ -9,7 +9,7 @@ const Projects = () => {
 	const [works] = useState(projects);
 	const [activeFilter, setActiveFilter] = useState("All");
 	const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
-	const [filterWork, setFilterWork] = useState();
+	const [filterWork, setFilterWork] = useState(projects);
 
 	function handleWorkFilter(item) {
 		setActiveFilter(item);
@@ -17,8 +17,7 @@ const Projects = () => {
 
 		setTimeout(function () {
 			setAnimateCard([{ y: 0, opacity: 1 }]);
-
-			if (item === "All") {
+			if (item == "All") {
 				setFilterWork(works);
 			} else {
 				setFilterWork(works.filter((work) => work.tags.includes(item)));
@@ -38,7 +37,7 @@ const Projects = () => {
 			</p>
 
 			<div className="flex justify-center md:justify-start items-center flex-wrap mt-16 mb-8">
-				{["All", "React JS", "MERN", "Vanilla JS", "Mini Projects"]?.map((item, index) => (
+				{["All", "React JS", "MERN", "GSAP", "Vanilla JS", "Mini Projects"]?.map((item, index) => (
 					<div
 						key={index}
 						onClick={() => handleWorkFilter(item)}
@@ -53,91 +52,48 @@ const Projects = () => {
 			<motion.div
 				animate={animateCard}
 				transition={{ duration: 0.5, delayChildren: 0.5 }}
-				className="flex flex-wrap justify-center items-start gap-16 md:gap-10 my-20"
+				className="flex flex-wrap justify-center items-start gap-12 md:gap-16 lg:gap-28 my-20"
 			>
-				{filterWork && filterWork.length > 0
-					? filterWork.map((project) => (
-							<div className="sm:w-[400px] md:w-[300px] w-full" key={project.name}>
-								<div className="block-container w-12 h-12">
-									<div className={`btn-back rounded-xl ${project.theme}`} />
-									<div className="btn-front rounded-xl flex justify-center items-center">
-										<img src={project.iconUrl} alt="threads" className="w-1/2 h-1/2 object-contain" />
-									</div>
-								</div>
-								<div className="w-full my-4">
-									<img src={project.imgUrl} alt={project.name} className="w-full h-56  rounded-lg" />
-								</div>
-
-								<div className="mt-5 flex flex-col">
-									<a href={project.link} target="_blank">
-										<h4 className="text-2xl font-poppins font-semibold">{project.name}</h4>
-									</a>
-									<p className="mt-2 text-slate-500">{project.description}</p>
-									{project.github && (
-										<div className="mt-4 flex items-center gap-3 font-poppins">
-											<Link
-												to={project.github}
-												target="_blank"
-												rel="noopener noreferrer"
-												className="font-semibold text-blue-600"
-											>
-												Github Link
-											</Link>
-											<img src={github} alt="arrow" className="w-5 h-5 object-contain" />
-										</div>
-									)}
-									{project.link && (
-										<div className="mt-2 flex items-center gap-2 font-poppins">
-											<Link to={project.link} target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-600">
-												Live Link
-											</Link>
-											<img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
-										</div>
-									)}
+				{filterWork && filterWork.length > 0 ? (
+					filterWork.map((project) => (
+						<div className="sm:w-[400px] md:w-[300px] w-full" key={project.name}>
+							<div className="block-container w-12 h-12">
+								<div className={`btn-back rounded-xl ${project.theme}`} />
+								<div className="btn-front rounded-xl flex justify-center items-center">
+									<img src={project.iconUrl} alt="threads" className="w-1/2 h-1/2 object-contain" />
 								</div>
 							</div>
-					  ))
-					: works.map((project) => (
-							<div className="sm:w-[400px] md:w-[300px] w-full" key={project.name}>
-								<div className="block-container w-12 h-12">
-									<div className={`btn-back rounded-xl ${project.theme}`} />
-									<div className="btn-front rounded-xl flex justify-center items-center">
-										<img src={project.iconUrl} alt="threads" className="w-1/2 h-1/2 object-contain" />
-									</div>
-								</div>
-								<div className="w-full my-4">
-									<img src={project.imgUrl} alt={project.name} className="w-full h-56 rounded-lg" />
-								</div>
-
-								<div className="mt-5 flex flex-col">
-									<a href={project.link} target="_blank">
-										<h4 className="text-2xl font-poppins font-semibold">{project.name}</h4>
-									</a>
-									<p className="mt-2 text-slate-500">{project.description}</p>
-									{project.github && (
-										<div className="mt-4 flex items-center gap-3 font-poppins">
-											<Link
-												to={project.github}
-												target="_blank"
-												rel="noopener noreferrer"
-												className="font-semibold text-blue-600"
-											>
-												Github Link
-											</Link>
-											<img src={github} alt="arrow" className="w-5 h-5 object-contain" />
-										</div>
-									)}
-									{project.link && (
-										<div className="mt-2 flex items-center gap-2 font-poppins">
-											<Link to={project.link} target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-600">
-												Live Link
-											</Link>
-											<img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
-										</div>
-									)}
-								</div>
+							<div className="w-full my-4">
+								<img src={project.imgUrl} alt={project.name} className="w-full h-56  rounded-lg" />
 							</div>
-					  ))}
+
+							<div className="mt-5 flex flex-col">
+								<a href={project.link} target="_blank">
+									<h4 className="text-2xl font-poppins font-semibold">{project.name}</h4>
+								</a>
+								<p className="mt-2 text-slate-500">{project.description}</p>
+								{project.github && (
+									<div className="mt-4 flex items-center gap-3 font-poppins">
+										<Link to={project.github} target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-600">
+											Github Link
+										</Link>
+										<img src={github} alt="arrow" className="w-5 h-5 object-contain" />
+									</div>
+								)}
+								{project.link && (
+									<div className="mt-2 flex items-center gap-2 font-poppins">
+										<Link to={project.link} target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-600">
+											Live Link
+										</Link>
+										<img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
+									</div>
+								)}
+							</div>
+						</div>
+					))
+				) : (
+					<h1 className="text-2xl text-green-600 font-semibold">Coming Soon...</h1>
+				)}
 			</motion.div>
 
 			<hr className="border-slate-200" />

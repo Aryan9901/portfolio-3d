@@ -8,5 +8,6 @@ import email from "./email.png";
 import mobile from "./mobile.png";
 import guessthenumber from "./guessthenumber.png";
 import piggame from "./piggame.png";
+import gettala from "./gettala.gif";
 
-export { hero, meta, shopify, starbucks, tesla, logo, email, mobile, guessthenumber, piggame };
+export { hero, meta, shopify, starbucks, tesla, logo, email, mobile, guessthenumber, piggame, gettala };
