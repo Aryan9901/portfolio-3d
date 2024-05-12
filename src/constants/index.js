@@ -1,4 +1,4 @@
-import { guessthenumber, meta, shopify, starbucks, tesla } from "../assets/images";
+import { guessthenumber, meta, piggame, shopify, starbucks, tesla } from "../assets/images";
 import {
 	car,
 	contact,
@@ -186,21 +186,21 @@ export const projects = [
 		theme: "btn-back-red",
 		name: "Guess The Number",
 		description:
-			"Developed a responsive web-based guessing game using vanilla JavaScript. Users guess numbers 1-20, receiving instant feedback, with attempt tracking and congratulatory messages upon correct guesses. Built with HTML, CSS, and JavaScript for seamless user interaction.",
+			"Designed a responsive guessing game using vanilla JavaScript. Users guess 1-20, receive instant feedback, track attempts, and celebrate correct guesses. Built with HTML, CSS, and JavaScript for seamless gameplay.",
 		link: "https://aryan9901.github.io/guess-the-number/",
 		github: "https://github.com/Aryan9901/guess-the-number",
-		tags: "Vanilla JS MERN",
+		tags: "Vanilla JS",
 	},
 	{
 		iconUrl: threads,
 		theme: "btn-back-green",
-		imgUrl: "https://t.ly/NCQOd",
-		name: "Full Stack Threads Clone",
+		imgUrl: piggame,
+		name: "PIG GAME",
 		description:
-			'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-		link: "https://github.com/adrianhajdin/threads",
-		github: "https://github.com/adrianhajdin/pricewise",
-		tags: "React JS",
+			"Roll the dice, rack up points, but beware the dreaded 1! Strategize to be the first to reach 100 points and claim Pig Dice victory! Let the game of skill and luck begin!",
+		link: "https://aryan9901.github.io/pig-game/",
+		github: "https://github.com/Aryan9901/pig-game",
+		tags: "Vanilla JS",
 	},
 	{
 		iconUrl: car,

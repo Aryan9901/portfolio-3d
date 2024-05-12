@@ -53,11 +53,11 @@ const Projects = () => {
 			<motion.div
 				animate={animateCard}
 				transition={{ duration: 0.5, delayChildren: 0.5 }}
-				className="flex flex-wrap justify-center items-start gap-16 my-20"
+				className="flex flex-wrap justify-center items-start gap-16 md:gap-10 my-20"
 			>
 				{filterWork && filterWork.length > 0
 					? filterWork.map((project) => (
-							<div className="lg:w-[400px] w-full" key={project.name}>
+							<div className="sm:w-[400px] md:w-[300px] w-full" key={project.name}>
 								<div className="block-container w-12 h-12">
 									<div className={`btn-back rounded-xl ${project.theme}`} />
 									<div className="btn-front rounded-xl flex justify-center items-center">
@@ -65,7 +65,7 @@ const Projects = () => {
 									</div>
 								</div>
 								<div className="w-full my-4">
-									<img src={project.imgUrl} alt={project.name} className="w-full  rounded-lg" />
+									<img src={project.imgUrl} alt={project.name} className="w-full h-56  rounded-lg" />
 								</div>
 
 								<div className="mt-5 flex flex-col">
@@ -98,7 +98,7 @@ const Projects = () => {
 							</div>
 					  ))
 					: works.map((project) => (
-							<div className="lg:w-[400px] w-full" key={project.name}>
+							<div className="sm:w-[400px] md:w-[300px] w-full" key={project.name}>
 								<div className="block-container w-12 h-12">
 									<div className={`btn-back rounded-xl ${project.theme}`} />
 									<div className="btn-front rounded-xl flex justify-center items-center">
