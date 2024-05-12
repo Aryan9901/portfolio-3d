@@ -69,7 +69,9 @@ const Projects = () => {
 								</div>
 
 								<div className="mt-5 flex flex-col">
-									<h4 className="text-2xl font-poppins font-semibold">{project.name}</h4>
+									<a href={project.link} target="_blank">
+										<h4 className="text-2xl font-poppins font-semibold">{project.name}</h4>
+									</a>
 									<p className="mt-2 text-slate-500">{project.description}</p>
 									{project.github && (
 										<div className="mt-4 flex items-center gap-3 font-poppins">
@@ -108,7 +110,9 @@ const Projects = () => {
 								</div>
 
 								<div className="mt-5 flex flex-col">
-									<h4 className="text-2xl font-poppins font-semibold">{project.name}</h4>
+									<a href={project.link} target="_blank">
+										<h4 className="text-2xl font-poppins font-semibold">{project.name}</h4>
+									</a>
 									<p className="mt-2 text-slate-500">{project.description}</p>
 									{project.github && (
 										<div className="mt-4 flex items-center gap-3 font-poppins">

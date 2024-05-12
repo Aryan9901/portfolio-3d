@@ -190,7 +190,7 @@ const Home = () => {
 				</Suspense>
 			</Canvas>
 
-			<div className="absolute bottom-14 left-8 md:bottom-2 md:left-2">
+			<div className="absolute bottom-18 left-8 md:bottom-2 md:left-2">
 				<img
 					src={!isPlayingMusic ? soundoff : soundon}
 					alt="jukebox"
