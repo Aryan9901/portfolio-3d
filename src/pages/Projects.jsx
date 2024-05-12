@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { CTA } from "../components";
 import { projects } from "../constants";
-import { arrow } from "../assets/icons";
+import { arrow, github } from "../assets/icons";
 import { useState } from "react";
 
 const Projects = () => {
@@ -53,7 +53,7 @@ const Projects = () => {
 			<motion.div
 				animate={animateCard}
 				transition={{ duration: 0.5, delayChildren: 0.5 }}
-				className="flex flex-wrap justify-center items-center gap-16 my-20"
+				className="flex flex-wrap justify-center items-start gap-16 my-20"
 			>
 				{filterWork && filterWork.length > 0
 					? filterWork.map((project) => (
@@ -65,18 +65,33 @@ const Projects = () => {
 									</div>
 								</div>
 								<div className="w-full my-4">
-									<img src={project.imgUrl} alt={project.name} className="w-full rounded-lg" />
+									<img src={project.imgUrl} alt={project.name} className="w-full  rounded-lg" />
 								</div>
 
 								<div className="mt-5 flex flex-col">
 									<h4 className="text-2xl font-poppins font-semibold">{project.name}</h4>
 									<p className="mt-2 text-slate-500">{project.description}</p>
-									<div className="mt-5 flex items-center gap-2 font-poppins">
-										<Link to={project.link} target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-600">
-											Live Link
-										</Link>
-										<img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
-									</div>
+									{project.github && (
+										<div className="mt-4 flex items-center gap-3 font-poppins">
+											<Link
+												to={project.github}
+												target="_blank"
+												rel="noopener noreferrer"
+												className="font-semibold text-blue-600"
+											>
+												Github Link
+											</Link>
+											<img src={github} alt="arrow" className="w-5 h-5 object-contain" />
+										</div>
+									)}
+									{project.link && (
+										<div className="mt-2 flex items-center gap-2 font-poppins">
+											<Link to={project.link} target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-600">
+												Live Link
+											</Link>
+											<img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
+										</div>
+									)}
 								</div>
 							</div>
 					  ))
@@ -89,18 +104,33 @@ const Projects = () => {
 									</div>
 								</div>
 								<div className="w-full my-4">
-									<img src={project.imgUrl} alt={project.name} className="w-full rounded-lg" />
+									<img src={project.imgUrl} alt={project.name} className="w-full h-56 rounded-lg" />
 								</div>
 
 								<div className="mt-5 flex flex-col">
 									<h4 className="text-2xl font-poppins font-semibold">{project.name}</h4>
 									<p className="mt-2 text-slate-500">{project.description}</p>
-									<div className="mt-5 flex items-center gap-2 font-poppins">
-										<Link to={project.link} target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-600">
-											Live Link
-										</Link>
-										<img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
-									</div>
+									{project.github && (
+										<div className="mt-4 flex items-center gap-3 font-poppins">
+											<Link
+												to={project.github}
+												target="_blank"
+												rel="noopener noreferrer"
+												className="font-semibold text-blue-600"
+											>
+												Github Link
+											</Link>
+											<img src={github} alt="arrow" className="w-5 h-5 object-contain" />
+										</div>
+									)}
+									{project.link && (
+										<div className="mt-2 flex items-center gap-2 font-poppins">
+											<Link to={project.link} target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-600">
+												Live Link
+											</Link>
+											<img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
+										</div>
+									)}
 								</div>
 							</div>
 					  ))}

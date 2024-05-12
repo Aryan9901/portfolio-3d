@@ -6,5 +6,6 @@ import tesla from "./tesla.png";
 import logo from "./logo1.png";
 import email from "./email.png";
 import mobile from "./mobile.png";
+import guessthenumber from "./guessthenumber.png";
 
-export { hero, meta, shopify, starbucks, tesla, logo, email, mobile };
+export { hero, meta, shopify, starbucks, tesla, logo, email, mobile, guessthenumber };

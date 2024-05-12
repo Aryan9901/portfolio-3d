@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 import { arrow } from "../assets/icons";
 import { div } from "three/examples/jsm/nodes/Nodes.js";
+import { resumeLink } from "../constants";
 
 const HomeInfo = ({ currentStage }) => {
 	if (currentStage === 1)
@@ -16,7 +17,7 @@ const HomeInfo = ({ currentStage }) => {
 				<div
 					className="neo-brutalism-white neo-btn cursor-pointer"
 					onClick={() => {
-						window.open("https://drive.google.com/file/d/1g0fmuxygPC1ESO2qolMMS5UzdmUXGhPo/view?usp=sharing", "_blank");
+						window.open(resumeLink, "_blank");
 					}}
 				>
 					My Resume

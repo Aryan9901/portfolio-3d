@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { guessthenumber, meta, shopify, starbucks, tesla } from "../assets/images";
 import {
 	car,
 	contact,
@@ -29,6 +29,8 @@ import {
 	threads,
 	typescript,
 } from "../assets/icons";
+
+export const resumeLink = "https://drive.google.com/file/d/1g0fmuxygPC1ESO2qolMMS5UzdmUXGhPo/view?usp=sharing";
 
 export const skills = [
 	{
@@ -180,12 +182,13 @@ export const socialLinks = [
 export const projects = [
 	{
 		iconUrl: pricewise,
-		imgUrl: "https://t.ly/NCQOd",
+		imgUrl: guessthenumber,
 		theme: "btn-back-red",
-		name: "Amazon Price Tracker",
+		name: "Guess The Number",
 		description:
-			"Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-		link: "https://github.com/adrianhajdin/pricewise",
+			"Developed a responsive web-based guessing game using vanilla JavaScript. Users guess numbers 1-20, receiving instant feedback, with attempt tracking and congratulatory messages upon correct guesses. Built with HTML, CSS, and JavaScript for seamless user interaction.",
+		link: "https://aryan9901.github.io/guess-the-number/",
+		github: "https://github.com/Aryan9901/guess-the-number",
 		tags: "Vanilla JS MERN",
 	},
 	{
@@ -196,6 +199,7 @@ export const projects = [
 		description:
 			'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
 		link: "https://github.com/adrianhajdin/threads",
+		github: "https://github.com/adrianhajdin/pricewise",
 		tags: "React JS",
 	},
 	{
@@ -205,6 +209,7 @@ export const projects = [
 		name: "Car Finding App",
 		description: "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
 		link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+		github: "https://github.com/adrianhajdin/pricewise",
 		tags: "Mini Projects",
 	},
 	{
@@ -215,6 +220,7 @@ export const projects = [
 		description:
 			"Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
 		link: "https://github.com/adrianhajdin/social_media_app",
+		github: "https://github.com/adrianhajdin/pricewise",
 		tags: "MERN",
 	},
 	{
@@ -224,6 +230,7 @@ export const projects = [
 		imgUrl: "https://t.ly/NCQOd",
 		description: "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
 		link: "https://github.com/adrianhajdin/projects_realestate",
+		github: "https://github.com/adrianhajdin/pricewise",
 		tags: "React JS",
 	},
 	{
@@ -233,6 +240,7 @@ export const projects = [
 		name: "AI Summarizer Application",
 		description: "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
 		link: "https://github.com/adrianhajdin/project_ai_summarizer",
+		github: "https://github.com/adrianhajdin/pricewise",
 		tags: "React JS",
 	},
 ];
