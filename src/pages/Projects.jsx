@@ -42,9 +42,8 @@ const Projects = () => {
 					<div
 						key={index}
 						onClick={() => handleWorkFilter(item)}
-						className={`flex py-2 px-4 rounded-lg bg-white font-extrabold cursor-pointer duration-300 transition-all ease-linear my-4 lg:my-2 mr-4 hover:bg-[#313bac] hover:text-white ${
-							activeFilter === item ? "bg-blue-500 text-white" : ""
-						}`}
+						className={`flex py-2 px-4 rounded-lg bg-white font-extrabold cursor-pointer duration-300 transition-all ease-linear my-4 lg:my-2 mr-4 hover:bg-[#313bac] hover:text-white`}
+						style={activeFilter === item ? { backgroundColor: "#313bac", color: "white" } : {}}
 					>
 						{item}
 					</div>
