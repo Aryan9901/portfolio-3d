@@ -4,6 +4,7 @@ import { CTA } from "../components";
 import { experiences, skills } from "../constants";
 
 import "react-vertical-timeline-component/style.min.css";
+import { Link } from "react-router-dom";
 
 const About = () => {
 	return (
@@ -28,12 +29,12 @@ const About = () => {
 				<div className="mt-16 flex flex-wrap gap-12">
 					{skills.map((skill) => (
 						<div className="flex flex-col items-center justify-center gap-1">
-							<div className="block-container w-20 h-20" key={skill.name}>
+							<Link to={skill.link} target="_blank" className="block-container w-20 h-20" key={skill.name}>
 								<div className="btn-back rounded-xl" />
 								<div className="btn-front rounded-xl flex justify-center items-center">
 									<img src={skill.imageUrl} alt={skill.name} className="w-1/2 h-1/2 object-contain" />
 								</div>
-							</div>
+							</Link>
 							<p>{skill.name}</p>
 						</div>
 					))}
