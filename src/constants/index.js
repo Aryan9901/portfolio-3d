@@ -1,4 +1,4 @@
-import { gettala, guessthenumber, meta, piggame, shopify, starbucks, tesla } from "../assets/images";
+import { gettala, guessthenumber, meta, piggame, shopify, starbucks, tesla, shiksha, nftlanding } from "../assets/images";
 import {
 	car,
 	contact,
@@ -11,7 +11,6 @@ import {
 	github,
 	html,
 	hackhazards,
-	shiksha,
 	javascript,
 	linkedin,
 	mongodb,
@@ -189,7 +188,7 @@ export const projects = [
 			"Designed a responsive guessing game using vanilla JavaScript. Users guess 1-20, receive instant feedback, track attempts, and celebrate correct guesses. Built with HTML, CSS, and JavaScript for seamless gameplay.",
 		link: "https://aryan9901.github.io/guess-the-number/",
 		github: "https://github.com/Aryan9901/guess-the-number",
-		tags: ["Vanilla JS"],
+		tags: ["JAVASCRIPT"],
 	},
 	{
 		iconUrl: threads,
@@ -200,7 +199,7 @@ export const projects = [
 			"Roll the dice, rack up points, but beware the dreaded 1! Strategize to be the first to reach 100 points and claim Pig Dice victory! Let the game of skill and luck begin!",
 		link: "https://aryan9901.github.io/pig-game/",
 		github: "https://github.com/Aryan9901/pig-game",
-		tags: ["Vanilla JS"],
+		tags: ["JAVASCRIPT"],
 	},
 	{
 		iconUrl: car,
@@ -211,28 +210,29 @@ export const projects = [
 			"'Gettala' is a stylish website showcasing fruit-based snacks with GSAP animations, echoing taglines such as 'Bringing fruit snacks back to their roots,' emphasizing natural flavors and quality ingredients.",
 		link: "https://aryan9901.github.io/gettala-website/",
 		github: "https://github.com/Aryan9901/gettala-website",
-		tags: ["HTML", "CSS", "JAVASCRIPT", "GSAP"],
+		tags: ["UI / UX", "GSAP"],
 	},
 	{
 		iconUrl: snapgram,
 		theme: "btn-back-pink",
-		imgUrl: "https://t.ly/NCQOd",
-		name: "Full Stack Instagram Clone",
+		imgUrl: shiksha,
+		name: "SHIKSHA ARPAN",
 		description:
-			"Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-		link: "https://github.com/adrianhajdin/social_media_app",
-		github: "https://github.com/adrianhajdin/pricewise",
-		tags: ["MERN"],
+			"The Shiksha Arpan Platform offers an intuitive, user-friendly interface featuring a Community Discussion Forum and an Enhanced Tutor Matching Algorithm for seamless academic assistance and knowledge sharing.",
+		link: "https://aryan9901.github.io/Shiksha-Arpan-Web-Development-Challenge-/",
+		github: "https://github.com/Aryan9901/Shiksha-Arpan-Web-Development-Challenge-",
+		tags: ["UI / UX"],
 	},
 	{
 		iconUrl: estate,
 		theme: "btn-back-black",
-		name: "Real-Estate Application",
-		imgUrl: "https://t.ly/NCQOd",
-		description: "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-		link: "https://github.com/adrianhajdin/projects_realestate",
+		name: "NFT Marketplace Landing page",
+		imgUrl: nftlanding,
+		description:
+			"The NFT Marketplace Landing Page is a UI/UX website highlighting a fictional NFT marketplace. NFTs, unique digital assets like artwork and collectibles, are showcased, reflecting their growing significance across industries.",
+		link: "https://github.com/Aryan9901/NFT-MARKETPLACE",
 		github: "https://github.com/adrianhajdin/pricewise",
-		tags: ["React JS"],
+		tags: ["UI / UX"],
 	},
 	{
 		iconUrl: summiz,

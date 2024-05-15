@@ -37,7 +37,7 @@ const Projects = () => {
 			</p>
 
 			<div className="flex justify-center md:justify-start items-center flex-wrap mt-16 mb-8">
-				{["All", "React JS", "MERN", "GSAP", "Vanilla JS", "Mini Projects"]?.map((item, index) => (
+				{["All", "MERN", "React JS", "GSAP", "UI / UX", "JAVASCRIPT", "Mini Projects"]?.map((item, index) => (
 					<div
 						key={index}
 						onClick={() => handleWorkFilter(item)}
@@ -52,7 +52,7 @@ const Projects = () => {
 			<motion.div
 				animate={animateCard}
 				transition={{ duration: 0.5, delayChildren: 0.5 }}
-				className="flex flex-wrap justify-center items-start gap-12 md:gap-16 lg:gap-28 my-20"
+				className="flex flex-wrap justify-center items-start gap-8 md:gap-12 lg:gap-20 my-20"
 			>
 				{filterWork && filterWork.length > 0 ? (
 					filterWork.map((project) => (
