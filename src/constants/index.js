@@ -1,4 +1,4 @@
-import { gettala, guessthenumber, meta, piggame, shopify, starbucks, tesla, shiksha, nftlanding } from "../assets/images";
+import { gettala, guessthenumber, meta, piggame, shopify, starbucks, tesla, shikshahome, nftlanding } from "../assets/images";
 import {
 	car,
 	contact,
@@ -9,6 +9,7 @@ import {
 	express,
 	git,
 	github,
+	shiksha,
 	html,
 	hackhazards,
 	javascript,
@@ -232,7 +233,7 @@ export const projects = [
 	{
 		iconUrl: snapgram,
 		theme: "btn-back-pink",
-		imgUrl: shiksha,
+		imgUrl: shikshahome,
 		name: "SHIKSHA ARPAN",
 		description:
 			"The Shiksha Arpan Platform offers an intuitive, user-friendly interface featuring a Community Discussion Forum and an Enhanced Tutor Matching Algorithm for seamless academic assistance and knowledge sharing.",
@@ -254,7 +255,7 @@ export const projects = [
 	{
 		iconUrl: summiz,
 		theme: "btn-back-yellow",
-		imgUrl: "https://t.ly/NCQOd",
+		imgUrl: shikshahome,
 		name: "AI Summarizer Application",
 		description: "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
 		link: "https://github.com/adrianhajdin/project_ai_summarizer",

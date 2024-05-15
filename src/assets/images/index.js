@@ -9,7 +9,7 @@ import mobile from "./mobile.png";
 import guessthenumber from "./guessthenumber.png";
 import piggame from "./piggame.png";
 import gettala from "./gettala.gif";
-import shiksha from "./shiksha.png";
+import shikshahome from "./shiksha.png";
 import nftlanding from "./nftlanding.png";
 
-export { hero, meta, shopify, starbucks, tesla, logo, email, mobile, guessthenumber, piggame, gettala, shiksha, nftlanding };
+export { hero, meta, shopify, starbucks, tesla, logo, email, mobile, guessthenumber, piggame, gettala, shikshahome, nftlanding };
