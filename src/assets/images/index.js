@@ -11,5 +11,23 @@ import piggame from "./piggame.png";
 import gettala from "./gettala.gif";
 import shikshahome from "./shiksha.png";
 import nftlanding from "./nftlanding.png";
+import admindashboard from "./admindashboard.png";
+import lmsdigital from "./lmsdigital.png";
 
-export { hero, meta, shopify, starbucks, tesla, logo, email, mobile, guessthenumber, piggame, gettala, shikshahome, nftlanding };
+export {
+	hero,
+	meta,
+	shopify,
+	starbucks,
+	tesla,
+	logo,
+	email,
+	mobile,
+	guessthenumber,
+	piggame,
+	gettala,
+	shikshahome,
+	nftlanding,
+	admindashboard,
+	lmsdigital,
+};

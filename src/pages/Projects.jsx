@@ -56,7 +56,7 @@ const Projects = () => {
 			>
 				{filterWork && filterWork.length > 0 ? (
 					filterWork.map((project) => (
-						<div className="sm:w-[400px] md:w-[300px] w-full" key={project.name}>
+						<div className="sm:w-[400px] md:w-[350px] w-full" key={project.name}>
 							<div className="block-container w-12 h-12">
 								<div className={`btn-back rounded-xl ${project.theme}`} />
 								<div className="btn-front rounded-xl flex justify-center items-center">
@@ -70,8 +70,13 @@ const Projects = () => {
 							<div className="mt-5 flex flex-col">
 								<a href={project.link} target="_blank">
 									<h4 className="text-2xl font-poppins font-semibold">{project.name}</h4>
+									<ul className="w-full flex items-start justify-start gap-x-3 gap-y-1 my-2 flex-wrap">
+										{project?.tech?.map((tech) => (
+											<li className="text-sm font-medium">{tech}</li>
+										))}
+									</ul>
 								</a>
-								<p className="mt-2 text-slate-500">{project.description}</p>
+								<p className="mt-0 text-slate-500">{project.description}</p>
 								{project.github && (
 									<div className="mt-4 flex items-center gap-3 font-poppins">
 										<Link to={project.github} target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-600">

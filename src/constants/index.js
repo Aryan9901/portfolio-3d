@@ -1,4 +1,16 @@
-import { gettala, guessthenumber, meta, piggame, shopify, starbucks, tesla, shikshahome, nftlanding } from "../assets/images";
+import {
+	gettala,
+	guessthenumber,
+	meta,
+	piggame,
+	shopify,
+	starbucks,
+	tesla,
+	shikshahome,
+	nftlanding,
+	admindashboard,
+	lmsdigital,
+} from "../assets/images";
 import {
 	car,
 	contact,
@@ -199,36 +211,27 @@ export const socialLinks = [
 export const projects = [
 	{
 		iconUrl: pricewise,
-		imgUrl: guessthenumber,
+		imgUrl: lmsdigital,
 		theme: "btn-back-red",
-		name: "Guess The Number",
+		name: "DIGITAL PORTFOLIO",
 		description:
-			"Designed a responsive guessing game using vanilla JavaScript. Users guess 1-20, receive instant feedback, track attempts, and celebrate correct guesses. Built with HTML, CSS, and JavaScript for seamless gameplay.",
-		link: "https://aryan9901.github.io/guess-the-number/",
-		github: "https://github.com/Aryan9901/guess-the-number",
-		tags: ["JAVASCRIPT"],
+			"LMS Digital revolutionizes online education with its modern Learning Management System. Powered by React.js, Node.js, Express.js, and MongoDB, it offers robust course management and effective communication tools for educators and learners",
+		link: "https://digital-portfolio-aqea.onrender.com/",
+		github: "https://github.com/Aryan9901/lmsdigital",
+		tags: ["MERN"],
+		tech: ["REACT", "NODEJS", "EXPRESSJS", "MONGODB"],
 	},
 	{
-		iconUrl: threads,
-		theme: "btn-back-green",
-		imgUrl: piggame,
-		name: "PIG GAME",
+		iconUrl: pricewise,
+		imgUrl: admindashboard,
+		theme: "btn-back-red",
+		name: "ECOMMERCE DASHBOARD",
 		description:
-			"Roll the dice, rack up points, but beware the dreaded 1! Strategize to be the first to reach 100 points and claim Pig Dice victory! Let the game of skill and luck begin!",
-		link: "https://aryan9901.github.io/pig-game/",
-		github: "https://github.com/Aryan9901/pig-game",
+			"Introducing our eCommerce Dashboard: React, TypeScript, and SASS-powered. Features interactive data tables, dynamic charts, and a fun guessing game with instant feedback.",
+		link: "https://react-admin-dashboard-ts-p3an.vercel.app/admin/dashboard",
+		github: "https://github.com/Aryan9901/react_admin_dashboard_ts",
 		tags: ["JAVASCRIPT"],
-	},
-	{
-		iconUrl: car,
-		theme: "btn-back-blue",
-		imgUrl: gettala,
-		name: "GET TALA WEBSITE",
-		description:
-			"'Gettala' is a stylish website showcasing fruit-based snacks with GSAP animations, echoing taglines such as 'Bringing fruit snacks back to their roots,' emphasizing natural flavors and quality ingredients.",
-		link: "https://aryan9901.github.io/gettala-website/",
-		github: "https://github.com/Aryan9901/gettala-website",
-		tags: ["UI / UX", "GSAP"],
+		tech: ["REACT", "TYPESCRIPT", "SASS", "REACT-TABLE", "CHART-JS-2"],
 	},
 	{
 		iconUrl: snapgram,
@@ -240,6 +243,43 @@ export const projects = [
 		link: "https://aryan9901.github.io/Shiksha-Arpan-Web-Development-Challenge-/",
 		github: "https://github.com/Aryan9901/Shiksha-Arpan-Web-Development-Challenge-",
 		tags: ["UI / UX"],
+		tech: ["HTML", "CSS", "JAVASCRIPT", "GSAP"],
+	},
+	{
+		iconUrl: car,
+		theme: "btn-back-blue",
+		imgUrl: gettala,
+		name: "GET TALA WEBSITE",
+		description:
+			"'Gettala' is a stylish website showcasing fruit-based snacks with GSAP animations, echoing taglines such as 'Bringing fruit snacks back to their roots,' emphasizing natural flavors and quality ingredients.",
+		link: "https://aryan9901.github.io/gettala-website/",
+		github: "https://github.com/Aryan9901/gettala-website",
+		tags: ["UI / UX", "GSAP"],
+		tech: ["HTML", "CSS", "JAVASCRIPT", "GSAP"],
+	},
+	{
+		iconUrl: pricewise,
+		imgUrl: guessthenumber,
+		theme: "btn-back-red",
+		name: "Guess The Number",
+		description:
+			"Designed a responsive guessing game using vanilla JavaScript. Users guess 1-20, receive instant feedback, track attempts, and celebrate correct guesses. Built with HTML, CSS, and JavaScript for seamless gameplay.",
+		link: "https://aryan9901.github.io/guess-the-number/",
+		github: "https://github.com/Aryan9901/guess-the-number",
+		tags: ["JAVASCRIPT"],
+		tech: ["HTML", "CSS", "JAVASCRIPT"],
+	},
+	{
+		iconUrl: threads,
+		theme: "btn-back-green",
+		imgUrl: piggame,
+		name: "PIG GAME",
+		description:
+			"Roll the dice, rack up points, but beware the dreaded 1! Strategize to be the first to reach 100 points and claim Pig Dice victory! Let the game of skill and luck begin!",
+		link: "https://aryan9901.github.io/pig-game/",
+		github: "https://github.com/Aryan9901/pig-game",
+		tags: ["JAVASCRIPT"],
+		tech: ["HTML", "CSS", "JAVASCRIPT"],
 	},
 	{
 		iconUrl: estate,
@@ -251,6 +291,7 @@ export const projects = [
 		link: "https://github.com/Aryan9901/NFT-MARKETPLACE",
 		github: "https://github.com/adrianhajdin/pricewise",
 		tags: ["UI / UX"],
+		tech: ["HTML", "CSS"],
 	},
 	{
 		iconUrl: summiz,
