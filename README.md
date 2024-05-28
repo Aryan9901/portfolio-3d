@@ -23,16 +23,8 @@ This portfolio website features various projects, including an eCommerce Dashboa
 
 ## Features
 - **Responsive Design:** Fully responsive layout ensuring seamless user experience across devices and screen sizes.
-- **Interactive Data Tables:** Utilizing React-Table, users can easily browse through and analyze various datasets with sorting, filtering, and pagination functionalities.
-- **Dynamic Charts and Graphs:** Visualize key metrics such as:</br>
- -   👉 Number of users and gender statistics
- -   👉 Product inventory status (in-stock vs. out-of-stock)
- -   👉 Category-wise product sales (pie chart)
- -   👉 Revenue trends (line chart)
- -   👉 Order fulfillment ratio
- -   👉 Revenue distribution
- -   👉 Users age group distribution
-- **Product Management:** Functionality for adding new products, tracking product status (shipped, delivered, dispatched), and managing inventory.
+- **3D Design:** Eye-catching 3D design elements to enhance visual appeal and user engagement.
+- **Sleek Animations:** mooth and sophisticated animations created with Framer Motion.
 
   ## Screenshots
 
