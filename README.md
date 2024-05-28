@@ -9,7 +9,7 @@ Check out the live demo [Live Link](https://portfolio-3d-livid.vercel.app/).
  Welcome to our dynamic eCommerce Dashboard built with React, TypeScript, and SASS. Featuring interactive data visualization powered by React-Table and Chart.js-2, this dashboard provides insightful analytics at your fingertips. Additionally, we've crafted an engaging guessing game using vanilla JavaScript, allowing users to test their intuition with instant feedback and tracking of their attempts.
 
 ## Preview
-![React Ecommerce Admin Dashboard Preview](https://github.com/Aryan9901/react_admin_dashboard_ts/blob/master/admindashboard.png)
+![React Ecommerce Admin Dashboard Preview](https://github.com/Aryan9901/portfolio-3d/blob/main/Screenshot%202024-05-28%20111134.png)
 
 ## Table of Contents
 - [Introduction](#Introduction)
