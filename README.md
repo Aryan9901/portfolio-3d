@@ -6,7 +6,7 @@ Check out the live demo [Live Link](https://portfolio-3d-livid.vercel.app/).
 
 
 ## Overview
- Welcome to our dynamic eCommerce Dashboard built with React, TypeScript, and SASS. Featuring interactive data visualization powered by React-Table and Chart.js-2, this dashboard provides insightful analytics at your fingertips. Additionally, we've crafted an engaging guessing game using vanilla JavaScript, allowing users to test their intuition with instant feedback and tracking of their attempts.
+Welcome to my dynamic portfolio website built with React, TypeScript, and SASS. This portfolio showcases various projects, including an eCommerce Dashboard featuring interactive data visualization powered by React-Table and Chart.js-2, and an engaging guessing game developed with vanilla JavaScript.
 
 ## Preview
 ![React Ecommerce Admin Dashboard Preview](https://github.com/Aryan9901/portfolio-3d/blob/main/Screenshot%202024-05-28%20111134.png)
@@ -19,10 +19,10 @@ Check out the live demo [Live Link](https://portfolio-3d-livid.vercel.app/).
 - [Installation](#Installation)
 
 ## Introduction
-This project is an eCommerce Dashboard designed to provide users with a comprehensive view of their online store's performance and customer trends. It's built using React.js, TypeScript, and SASS to ensure a robust and scalable solution. The dashboard includes interactive data tables and dynamic charts, powered by React-Table and various charting libraries, for visualizing sales trends, product tracking, and user demographics. Additionally, there's functionality for managing products, tracking orders, and analyzing revenue distribution.
+This portfolio website features various projects, including an eCommerce Dashboard designed to provide users with a comprehensive view of their online store's performance and customer trends. Built using React.js, TypeScript, and SASS, the dashboard includes interactive data tables and dynamic charts for visualizing sales trends, product tracking, and user demographics. Additionally, the portfolio includes a guessing game that tests users' intuition with instant feedback and tracking of their attempts.
 
 ## Features
-- **Responsive Design:** The dashboard is fully responsive, ensuring seamless user experience across devices and screen sizes.
+- **Responsive Design:** Fully responsive layout ensuring seamless user experience across devices and screen sizes.
 - **Interactive Data Tables:** Utilizing React-Table, users can easily browse through and analyze various datasets with sorting, filtering, and pagination functionalities.
 - **Dynamic Charts and Graphs:** Visualize key metrics such as:</br>
  -   👉 Number of users and gender statistics
