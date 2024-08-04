@@ -10,6 +10,7 @@ import {
 	nftlanding,
 	admindashboard,
 	lmsdigital,
+	droit,
 } from "../assets/images";
 import {
 	car,
@@ -151,17 +152,32 @@ export const skills = [
 
 export const experiences = [
 	{
-		title: "Full Stack Developer",
+		title: "Full Stack Developer Intern",
+		company_name: "Droit.Care",
+		location: "remote",
+		icon: droit,
+		iconBg: "#E4EBF2",
+		date: "July 2024 - present",
+		points: [
+			"Directed the development and launch of droit.care website, integrating a robust platform for product promotion, resulting in a 40% increase in online engagement and a 25% boost in sales.",
+			"Engineered consultancy software using Curable to optimize online consultations and enhance digital healthcare services.",
+		],
+		link: "https://droit.care/",
+	},
+	{
+		title: "Full Stack Developer Intern",
+		location: "onsite",
 		company_name: "Tryidol Technologies",
 		icon: tryidol,
 		iconBg: "#accbe1",
-		date: "Febuary 2024 - present",
+		date: "February 2024 - July 2024",
 		points: [
 			"Responsible for designing and developing the company website from scratch.",
 			"Engineered responsive web pages using React.js, ensuring an enhanced user experience across multiple devices.",
 			"Build a CRM Application for vehicle rental services, streamlining processes for efficient bill generation and client management.",
 			"I seamlessly integrated functionalities for data retrieval from both Excel and CSV files, enhancing the application&apos;s versatility and utility.",
 		],
+		link: "https://www.linkedin.com/company/tryidoltech/posts/?feedView=all",
 	},
 	{
 		title: "Hackhazards Winner",
@@ -175,6 +191,7 @@ export const experiences = [
 			"Designed and implemented a Discord clone as part of the hackathon project.",
 			"Successfully addressed a significant business problem related to pollution in Delhi, demonstrating problem-solving skills and practical application of technology for social and environmental impact.",
 		],
+		link: "https://drive.google.com/file/d/1mmkxNmxBhfEvLzVgRgW5RTPZojoJN1Z9/view",
 	},
 	{
 		title: "Shiksha Arpan Web Developent Challenge",
@@ -187,6 +204,7 @@ export const experiences = [
 			"Crafted the UI for the Community Discussion Forum feature, fostering engagement and interaction among platform users through intuitive design and seamless navigation.",
 			"Designed the UI for the Enhanced Tutor Matching Algorithm feature, ensuring ease of use and clarity in presenting tutor recommendations to users.",
 		],
+		link: "https://drive.google.com/file/d/1VgE8j2BNz622wQxGPTMjSfMK_4xd3mau/view",
 	},
 ];
 

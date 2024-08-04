@@ -6,14 +6,14 @@ import { logo } from "../assets/images";
 const Navbar = () => {
 	return (
 		<header className="header">
-			<NavLink to="/" className="p-2 bg-white rounded-md">
+			<NavLink to="/" className="p-2 bg-white about-section rounded-md">
 				<img src={logo} alt="logo" className="w-10 object-contain" />
 			</NavLink>
 			<nav className="flex text-lg gap-7 font-medium">
-				<NavLink to="/about" className={({ isActive }) => (isActive ? "text-blue-600" : "text-black")}>
-					About
+				<NavLink to="/home" className={({ isActive }) => (isActive ? "text-white ddesign" : "text-black ddesign")}>
+					3D Experience
 				</NavLink>
-				<NavLink to="/projects" className={({ isActive }) => (isActive ? "text-blue-600" : "text-black")}>
+				<NavLink to="/projects" className={({ isActive }) => (isActive ? "text-blue-600 projects-section" : "text-black projects-section")}>
 					Projects
 				</NavLink>
 			</nav>

@@ -6,8 +6,12 @@ import { HomeInfo, Loader } from "../components";
 import { soundoff, soundon } from "../assets/icons";
 import { Bird, Island, Plane, Sky } from "../models";
 
+import { driver } from "driver.js";
+import "driver.js/dist/driver.css";
+
 const Home = () => {
 	const audioRef = useRef(new Audio(sakura));
+	const driverObj = driver();
 	audioRef.current.volume = 0.4;
 	audioRef.current.loop = true;
 
@@ -190,7 +194,7 @@ const Home = () => {
 				</Suspense>
 			</Canvas>
 
-			<div className="absolute bottom-18 left-8 md:bottom-2 md:left-2">
+			<div className="absolute bottom-6 left-6 md:bottom-2 md:left-2">
 				<img
 					src={!isPlayingMusic ? soundoff : soundon}
 					alt="jukebox"

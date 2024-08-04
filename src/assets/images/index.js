@@ -13,8 +13,10 @@ import shikshahome from "./shiksha.png";
 import nftlanding from "./nftlanding.png";
 import admindashboard from "./admindashboard.png";
 import lmsdigital from "./lmsdigital.png";
+import droit from "./DROIT.png";
 
 export {
+	droit,
 	hero,
 	meta,
 	shopify,
